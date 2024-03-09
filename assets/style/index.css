@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+    font-family: 'Inter', 'Open Sans', Arial, sans-serif;
     background-color: #f5f5f6;
 }
 
@@ -99,9 +99,9 @@ nav ul li a:hover {
 
 .landing-page section h2 {
     font-size: 52px;
-    font-weight: 900;
+    font-weight: 800;
     color: #fff;
-    line-height: 65px;   
+    line-height: 72px;   
 }
 
 .land-content p {
@@ -131,4 +131,56 @@ nav ul li a:hover {
 .primary-button:hover {
     background-color: #0057d8;
     transform: translateY(-5px);
+}
+
+
+/*----------------------------------------------------*/
+/* About-section                                      */
+/*----------------------------------------------------*/
+
+article {
+    width: 54%;
+}
+
+article h3 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+article p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #646a6e;
+}
+
+aside {
+    width: 48%;
+}
+
+.profile-pic img {
+    height: 480px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about {
+    background: #f6f8fa;
+}
+
+.who {
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.who article h6 {
+    color: #0067ff;
+    background: #daeef9;
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
 }
