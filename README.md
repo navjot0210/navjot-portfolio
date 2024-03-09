@@ -13,6 +13,6 @@ I'm always looking to improve and grow. If you have any feedback or suggestions 
 portfolio, please don't hesitate to reach out. Your insights are greatly appreciated!
 
 ## Demo
-Click [here]() to view my portfolio.
+Click [here](https://navjot0210.github.io/navjot-portfolio/) to view my portfolio.
 
 Thank you for visiting!
