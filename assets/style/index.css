@@ -121,7 +121,7 @@ nav ul li a:hover {
     display: block;
     width: 140px;
     padding: 14px 0;
-    margin-top: 22px;
+    margin-top: 28px;
     color: #fff;
     background-color: #0067ff;
     text-align: center;
@@ -218,4 +218,20 @@ aside {
 .social-apps ul li a i:hover {
     color: #0067ff;
     transform: translateY(-5px);
+}
+
+
+/*----------------------------------------------------*/
+/* Footer                                             */
+/*----------------------------------------------------*/
+
+footer {
+    height: 80px;
+    background-color: rgb(34, 36, 47);
+}
+
+footer p {
+    color: #fbfbfc;
+    line-height: 80px;
+    font-size: 15px;
 }
