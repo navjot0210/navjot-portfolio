@@ -28,6 +28,10 @@ body {
   place-items: center;
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
 .gap-25 {
   gap: 25px;
 }
@@ -151,8 +155,11 @@ article h3 {
 }
 
 article p {
-  margin-top: 10px;
   font-size: 18px;
+}
+
+article p, .services p {
+  margin-top: 10px;
   color: #646a6e;
 }
 
@@ -164,10 +171,11 @@ aside {
   height: 485px;
   width: 100%;
   border-radius: 50%;
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 0.03);
 }
 
 .about {
-  background: #fff;
+  background: #fffdfc;
 }
 
 .who {
@@ -175,7 +183,7 @@ aside {
   border-radius: 6px;
 }
 
-.who article h6 {
+.who article h6, .section-heading h6 {
   color: #0067ff;
   background: #daeef9;
   border-radius: 3px;
@@ -187,6 +195,55 @@ aside {
   font-weight: 600;
   font-size: 15px;
 }
+
+
+/*----------------------------------------------------*/
+/* Projects-section                                    */
+/*----------------------------------------------------*/
+
+.columns {
+  flex: 0 0 calc(25% - 15px);
+  max-width: calc(25% - 15px);
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  text-align: left;
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 0.03);
+}
+
+.columns h3 {
+  font-size: 23px;
+}
+
+.columns i {
+  font-size: 60px;
+  color: #0067ff;
+}
+
+.row-one {
+  flex-wrap: wrap;
+}
+
+.section-heading {
+  padding: 0 0 25px 0;
+}
+
+.section-heading h3 {
+  font-size: 46.4px;
+  padding-top: 10px;
+}
+
+span {
+  color: #0067ff;
+}
+
+.services p {
+  font-size: 16px;
+}
+
 
 /*----------------------------------------------------*/
 /* Contact-section                                    */
@@ -236,6 +293,7 @@ footer p {
   color: #fbfbfc;
   line-height: 80px;
   font-size: 15px;
+  text-align: right;
 }
 
 
