@@ -359,6 +359,11 @@ footer p {
   article p {
     font-size: 15px;
   }
+  .column {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: auto;
+  }
 }
 
 @media (max-width: 890px) {
@@ -423,4 +428,14 @@ footer p {
   .social-apps ul li a i {
     font-size: 30px;
   }
+
+  .column {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-heading h3 {
+    font-size: 35px;
+}
 }
